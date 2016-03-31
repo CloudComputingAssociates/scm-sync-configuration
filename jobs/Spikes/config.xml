@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <project>
   <actions/>
-  <description>Pulls spikes down to ubuntu server in correct directory, then updates DEV and SIT envs but only for project spike we want to keep live</description>
+  <description>Pulls spikes down to ubuntu server in correct directory, then updates DEV and SIT envs</description>
   <keepDependencies>false</keepDependencies>
   <properties>
     <com.coravy.hudson.plugins.github.GithubProjectProperty plugin="github@1.18.1">
