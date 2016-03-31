@@ -37,7 +37,8 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command></command>
+      <command>chmod u+x $JENKINS_HOME/jobs/Spikes/workspace/build/spikes_deploy.sh
+$JENKINS_HOME/jobs/Spikes/workspace/build/spikes_deploy.sh</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers/>
